@@ -251,6 +251,12 @@ Google-Play-Store-ML-Pipeline/
 
 ---
 
+# Key Takeaways & Real-World Insights
+While the Random Forest model successfully learned patterns within the structured metadata (achieving an $\text{MAE} = 0.297$), the low $R^2$ score ($0.089$) highlights a fundamental domain insight: quantitative app metrics (size, category, number of installs) alone cannot reliably predict subjective user satisfaction. 
+App ratings are driven heavily by qualitative factors—such as user experience, recent bug fixes, and customer support responsiveness—which cannot be captured by metadata alone.
+
+---
+
 # Future Improvements
 
 Potential improvements include:
